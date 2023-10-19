@@ -132,7 +132,7 @@ the dependency to the project (deps.edn only)."
        (format "dep add :lib %s :version %s" lib-name version)))
 
     (kill-new dep-str)
-    (message dep-str)))
+    (insert dep-str)))
 
 (provide 'neil)
 
